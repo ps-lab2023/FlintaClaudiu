@@ -1,0 +1,87 @@
+form1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  form5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  input[type="text"], select, input[type="date"], input[type="number"] {
+    margin: 15px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  select {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+  
+  input[type="date"] {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+  
+  input[type="number"] {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+  form1 {
+	background-color: #23387E ;
+	height: 70px;
+    width: 760px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 60%;
+	left: 21%;
+	right: 0;
+	z-index: 999;
+    border-radius: 10px;
+}
+
+  .search_main {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 30px;
+}
+
+form5 {
+	background-color: #eaecf8 ;
+	height: 180px;
+    width: 960px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 80%;
+	left: 13%;
+	right: 0;
+	z-index: 999;
+    border-radius: 10px;
+}
+

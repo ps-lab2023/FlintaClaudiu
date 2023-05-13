@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    background-color: #fff;
+    width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-box img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .login-box h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-box {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .user-box input {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    color: #000;
+  }
+  
+  .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #999;
+  }
+  
+  .user-box input:focus ~ label,
+  .user-box input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #0071c2;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password a {
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .login-btn {
+    background-color: #0071c2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #005da7;
+  }
+  
+  .register {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .register a {
+    color: #0071c2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-box {
+    background-color: #fff;
+    top: 50%;
+    width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .register-box img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .register-box h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+
+  .container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+  }

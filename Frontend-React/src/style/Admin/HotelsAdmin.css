@@ -1,0 +1,84 @@
+form2 {
+	background-color: #23387E ;
+	height: 220px;
+    width: 1320px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 20%;
+	left: 1.5%;
+	right: 0;
+	z-index: 999;
+    border-radius: 10px;
+}
+
+form2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+
+  form3 {
+	background-color: #23387E ;
+	height: 170px;
+    width: 1320px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 60%;
+	left: 1.5%;
+	right: 0;
+	z-index: 999;
+    border-radius: 10px;
+}
+
+form3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+
+  form4 {
+	background-color: #23387E ;
+	height: 170px;
+    width: 1320px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 90%;
+	left: 1.5%;
+	right: 0;
+	z-index: 999;
+    border-radius: 10px;
+}
+
+form4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+
+.admin-hotels {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 30px;
+}
+
+  
+.add-btn {
+position: relative;
+left: 93.8%;
+}
+
+.delete-btn {
+    position: relative;
+    left: 278%;
+    }
+
+
+	.change-btn {
+		position: relative;
+		left: 28%;
+		}

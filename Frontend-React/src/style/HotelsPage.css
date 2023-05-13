@@ -1,0 +1,135 @@
+.hotels-container {
+  display: flex;
+  position: absolute;
+  top:16%;
+  left: 30%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+    display: flex;
+    position: absolute;
+    top: 5.4%;
+    left: -39.5%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-container-review {
+      display: flex;
+      position: absolute;
+      top: 125.4%;
+      left: -39.5%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  .search-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    background-color: #f1c21a;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .search-card-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    background-color: #f1c21a;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+.hotel-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  height: 180px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.hotel-card img {
+  width: 240px;
+  height: 160px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.hotel-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hotel-info h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.hotel-info p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+img:hover {
+  transform: scale(1.4);
+}
+
+
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+

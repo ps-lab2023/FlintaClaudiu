@@ -1,0 +1,17 @@
+.image-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container {
+    flex: 0 0 auto;
+    margin-right: 16px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
